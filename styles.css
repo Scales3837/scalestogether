@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+}
+
+* {
+  font-family: Arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c2c2c2;
+  border-radius: 8px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  font-size: 18;
+}
+
+li a:hover {
+  background-color: #00c6f2;
+}
+
+.HomeButton {
+  background-color: transparent;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+}
+
+.HomeButton2 {
+  background-color: transparent;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  font-size: 18;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  display: inline;
+}
+
+.active {
+  background-color: #00e379;
+}
+
+.PrimaryButton {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.RightButton {
+  float: right !IMPORTANT;
+}
